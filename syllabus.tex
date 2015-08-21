@@ -1,3 +1,13 @@
+%----------------------------------------------------------------------------
+% Course Syllabus for Chemistry 110 (c) 2015 by Dale J. Brugh
+
+% Course Syllabus for Chemistry 110 is released under a
+% Creative Commons Attribution-ShareAlike 4.0 International License.
+
+% See http://creativecommons.org/licenses/by-sa/4.0/ for
+% a description of your rights under this license. 
+%----------------------------------------------------------------------------
+
 \documentclass[letterpaper,oneside,onecolumn,11pt,article]{memoir}
 \usepackage[T1]{fontenc}            % use T1 font encoding
 \usepackage{textcomp}
@@ -25,11 +35,11 @@
     pdftoolbar=true,        % show Acrobat’s toolbar?
     pdfmenubar=true,        % show Acrobat’s menu?
     pdffitwindow=true,      % page fit to window when opened
-    pdftitle={Course Syllabus: Chemistry 110 / Fall 2013}, 
+    pdftitle={Course Syllabus: Chemistry 110 / Fall 2015}, 
     pdfauthor={Dale J. Brugh},     % author
     pdfsubject={General Chemistry},   % subject of the document
     pdfnewwindow=true,      % links in new window
-    pdfkeywords={classes, ch110f13}, % list of keywords
+    pdfkeywords={classes, ch110f15}, % list of keywords
     colorlinks=true,       % false: boxed links; true: colored links
     linkcolor=black,          % color of internal links
     citecolor=green,        % color of links to bibliography
@@ -91,7 +101,7 @@
 \makeheadrule{courseinformation}{\headwidth}{\normalrulethickness}
 \makeheadposition{courseinformation}{flushright}{flushleft}{flushleft}{flushleft}
 \makeoddhead{courseinformation}%
-    {\sffamily Course Syllabus: Chemistry 110 / Fall 2013}{}{\sffamily\thepage}
+    {\sffamily Course Syllabus: Chemistry 110 / Fall 2015}{}{\sffamily\thepage}
 
     \makeevenfoot{courseinformation}{}{}{\addRevisionData}
     \makeoddfoot{courseinformation}{}{}{\addRevisionData}
@@ -117,16 +127,13 @@
 \captionof{figure}{#3}
 \label{#4}}%
 }%
-
-%==========================================================================
-% Margin Note Command
-%==========================================================================
-
+%
+% --- MARGIN NOTE COMMAND ---
+%
 \newcommand{\marginnote}[2]
 {%
 \marginpar{\raggedright\vspace{#1}\begin{Spacing}{0.65}\sffamily{{\tiny$\blacktriangleright$~\scriptsize#2}}\end{Spacing}} %
 }
-
 %===========================================================================
 % Set Up The Title
 %===========================================================================
@@ -138,55 +145,63 @@
 \postauthor{\par}
 \predate{}
 \postdate{\noindent\rule{\linewidth}{0.3pt}}
-
-\title{Chemistry 110 / Fall 2013}
+\title{Chemistry 110 / Fall 2015}
 \date{}
 \author{}
-
-%============================================================================
-% Begin Document
-%============================================================================
-
+%
+% --- BEGIN DOCUMENT ---
+%
 \begin{document}
 \setsecnumdepth{subsubsection}
 \maketitle
 %\setsecnumdepth{subsection}
 \thispagestyle{courseinformationtitle}
-
+%
+% --- INSTRUCTOR ---
+%
 \section{Instructor}
 \begin{tabular}{rl|rl}
-Name: & Dr. Dale J. Brugh & Office Location: & SCSC 262 \\
-Email: & \href{mailto:djbrugh@owu.edu}{djbrugh@owu.edu} & Office Phone: & 740-368-3530 \\
+Name: & Dr. Dale J. Brugh & Office Phone: & 740-368-3530 \\
+Email: & \href{mailto:djbrugh@owu.edu}{djbrugh@owu.edu} & Cell Phone: & 614-746-2397 \\
+Office: & SCSC 262 & &  \\
 \end{tabular}
-
+%
+% --- MEETINGS ---
+%
 \section{Meetings}
 \begin{tabular}{crcrl}
-MWF & 11:00 am & to & 11:50 am & SCSC 244 \\
+MWF & 8:00 am & to & 8:50 am & SCSC 244 \\
 R & 12:10 pm & to & 1:00 pm & SCSC 244
 \end{tabular}
-
+\marginnote{-0.2in}{An optional review meeting is offered every Wednesday from 6:15 p.m. to 7:15 p.m.}
+%
+% --- WEBSITE ---
+%
 \section{Website}
-The course website is located at \href{http://dephlo.net/genchem}{dephlo.net/genchem}. The website is an important extension of this syllabus and should be read carefully. 
-
+The course website is located at \href{http://dephlo.net/genchem}{dephlo.net/genchem}. The website is an extension of this syllabus and should be read carefully. 
+%
+% --- PREREQUISITES ---
+%
 \section{Prerequisites}
 This course has no college-level prerequisites. Proficiency in arithmetic and algebra is required and assumed throughout the course. Calculus is not required. Background in high school physics and chemistry will be helpful. 
-
+%
+% --- LABORATORY ---
+%
 \section{Laboratory}
 Registration in a laboratory section is required. It does not have to be my section. 
-
+%
+% --- MATERIALS ---
+%
 \section{Materials}
 These items are required. Additional details, including purchasing options, can be found on the course website at \href{http://dephlo.net/genchem-materials}{dephlo.net/genchem-materials}.
-
 \begin{enumerate}
 \item \textit{General Chemistry: The Central Science} by Brown, LeMay, Bursten, Murphy, and Woodward, Twelfth Edition, Pearson, 2012. ISBN: 9780321696724. 
-
-\item Access to MasteringChemistry. 
-
+\item Access to the Sapling Learning course with the title \\ Ohio Wesleyan University - Chem 110 - Fall15 - BRUGH
 \item Scientific, non-programmable, non-graphing calculator such as the Texas Instruments TI-30Xa or the  Casio FX260SLRSC.
-
-\item Bound composition notebook. 
 \end{enumerate}
-
+%
+% --- CONTENT ---
+%
 \section{Content}
 This course is a survey of the principles of chemistry, including atomic and molecular structure, stoichiometry, chemical reactions, chemical bonding, thermochemistry, and states of matter. The course topics are listed below. Topics are not necessarily covered in this order, and not all topics are covered with equal depth.
 
@@ -210,9 +225,10 @@ Intermolecular Forces & States of Matter \\
 \bottomrule
 \end{tabular}
 \end{table}
-
+%
+% --- GOALS ---
+%
 \section{Goals}
-
 Chemistry provides a microscopic view of the Universe that is applicable to any discipline. Phenomena as different as the ozone hole over the South Pole and Earth's magnetism are given common ground in chemistry where the properties and interactins of atoms and molecules give rise to all observed macroscopic phenomena. Chemistry makes the Universe understandable and interpretable. Simply put, it is extraordinarily cool. 
 
 I want to share some of this with you. During this course I want to 
@@ -226,8 +242,10 @@ I want to share some of this with you. During this course I want to
 \end{inparaenum}
 
 Another important goal of the course is to improve your study skills. I want you to learn to be efficient and effective in your studying so that you can get more done in less time. By the end of the course, I would like academic success to be an automatic part of your life, not something you have to struggle to achieve. 
+%
+% --- LEARNING OBJECTIVES ---
+%
 \section{Learning Objectives}
-
 Learning objectives are the things you should be able to do at the end of the course. For each topic covered in this course, you are provided with a detailed list of learning objectives called Be Able Tos, or BATS for short. A complete list of detailed BATS for each course topic can be found at \href{http://dephlo.net/chem110/lecture/objectives}{dephlo.net/genchem-objectives}. These BATS are very detailed (granular), and it might be difficult to see the overall objectives of the course from them. 
 
 A higher level (less granular) list of learning objectives might be helpful. At the end of the course, you should be able to 
@@ -243,49 +261,62 @@ A higher level (less granular) list of learning objectives might be helpful. At 
 \section{Time Requirement}
 
 Each of the four weekly course meetings is 50 minutes in length, requiring a total of $3.33$ hours per week. For each meeting you can expect to spend at least $2$ hours outside of class reading, studying, and working exercises. If your study habits are not well-developed, this course may require more time outside of class. You will have to devote time to working exercises over weekends and University breaks. 
-
+%
+% --- WEEKLY ROUTINE ---
+%
 \section{Weekly Routine}
-This course is primarily lecture-based. Each lecture meeting has a topic and an assigned reading which can be found on the course website. Practice exercises are assigned and due for each lecture meeting. These must be worked on the MasteringChemistry website. An exercise assignment is due at the start of each MWF course meeting. These assignments can be downloaded from the course website. The routine for the entire semester will be to read the assigned readings, work the exercises, come to lecture, and repeat for 15 weeks. This general pattern will be interrupted periodically for quizzes and exams to assess your progress. 
-
+This course is primarily lecture-based. Each lecture meeting has a topic and an assigned reading which can be found on the course website. You prepare for lecture by reading the assigned reading. A homework assignment on Sapling Learning is due each Friday. Review meetings are offered every Wednesday evening. There will be four quizzes and three exams during the semester.
+%
+% --- THINGS I GRADE ---
+%
 \section{Things I Grade}
-You and I determine your progress in this course using the scores derived from evaluating the quality and accuracy of your answers to questions posed in exercise assignments, practice exercises, quizzes, and exams. This section provides details for each of these.
-
-\subsection{Exercise Assignments}
-Exercise assignments consist of two problems that I write. You can download them from the course website. For each exercise assignment, you are to write out solutions on paper that you turn in at the start of the lecture meeting at which they are due. All exercise assignments are collected. A random selection is graded. Solutions will be available on the course website after the assignment is turned in. Graded exercise assignments are worth 10 points each. Your lowest five exercise assignment scores are dropped before calculating your course score. 
-
-\subsection{Practice Exercises} 
-Practice exercises are assigned and due on the MasteringChemistry website for each lecture meeting. The MasteringChemistry website scores all submitted answers. Six practice exercises are randomly selected prior to each exam to be included in your course score. Each chosen practice exercise is worth 100 points. Solutions for practice exercises are only available on the MasteringChemistry website. Your lowest five practice exercise scores are dropped before calculating your course score. \marginnote{-0.1in}{See the course website for detail on using the bound composition notebook.} Any work you do on paper to answer practice exercise questions should be recorded in the required bound composition notebook. 
-
+You and I determine your progress in this course using the scores derived from evaluating the quality and accuracy of your answers to questions posed in homework, quizzes, and exams. This section provides details for each of these.
+%
+% --- Homework ---
+%
+\subsection{Homework} 
+Homework is assigned and due each Friday on the Sapling Learning website. Questions are added to each homework assignment as the week progresses. Please check the Sapling Learning site every night for homework updates. Each weekly assignment is worth $100$ points. Your lowest two (2) homework scores are dropped before calculating your course score. 
+%
+% --- Quizzes ---
+%
 \subsection{Quizzes}
-Quiz dates are listed in the course schedule on the course website. Each is worth 25 points. They are administered at the start of a normal class meeting and typically require 20 minutes to complete. The material covered on each quiz is listed on the course website. Solutions for quizzes are posted on the course website after the quizzes are graded. Your lowest quiz score is dropped before calculating your final course score. 
-
+Dates for quizzes are listed in the course schedule on the course website. Each is worth 25 points. They are administered at the start of a normal class meeting and typically require 20 minutes to complete. The material covered on each quiz is listed on the course website. Solutions for quizzes are posted on the course website after the quizzes are graded. \marginnote{-0.1in}{Scores on follow-up quizzes replace original quiz scores only if higher than the original.} A practice quiz is available before each quiz. You may take a follow-up quiz at a scheduled time after each quiz to replace the score on the original quiz. 
+%
+% --- Exams ---
+%
 \subsection{Exams}
-Exam dates are listed in the course schedule on the course website. Each is worth 100 points. Three exams are given during the semester. They are administered at the start of a normal class meeting, and you are allowed to take until 1:00 p.m. to complete them. The material covered on each exam is listed on the course website. Solutions are posted on the course website after all exams have been graded. 
-
+Dates of exams are listed in the course schedule on the course website. Each is worth 100 points. Three exams are given during the semester. They are administered starting at 7:30 a.m.\ on the scheduled date. The material covered on each exam is listed on the course website. Solutions are posted on the course website after all exams have been graded. \marginnote{-0.25in}{Scores on follow-up exams replace original exam scores only if higher than the original.} You may take a follow-up exam at a scheduled time after each exam to replace the score on the original exam. 
+%
+% --- Final Exam ---
+%
 \subsection{Final Exam}
 The \marginnote{-0.1in}{The final exam is given at the time specified by the Registrar. I have no control over this time.} final exam is three hours in length, and it is cumulative over the entire semester. No solutions to the final exam are posted, and you are not allowed to take your final exam with you after I grade it. You may review the grading by making an appointment with me, but you may not take possession of the exam.
-
+%
+% --- LABORATORY SCORES ---
+%
 \section{Laboratory Scores}
 Your \marginnote{-0.1in}{I do not adjust laboratory scores. What you earn as a percentage is what will be included in your course score.} laboratory instructor is responsible for evaluating your laboratory work. He or she will assign a score to your laboratory work, and at the end of the course I will convert your laboratory score to a percentage that is included in the computation of your course score.
-
+%
+% --- COURSE SCORE ---
+%
 \section{Course Score}
-Your course score is a weighted average of the scores you earn on exams, quizzes, exercise assignments, practice exercises, and laboratory work. These scores are weighted according to the percentages shown in Table~\ref{tab:weights}. Before calculating your course score,  \marginnote{-0.1in}{Your lowest quiz score, lowest 5 exercise assignment scores, and lowest 5 practice exercise scores are dropped.} I will throw away your lowest quiz score, your lowest five exercise assignment scores, and your lowest five practice exercise scores. 
-
+Your course score is a weighted average of the scores you earn on exams, quizzes, homework, and laboratory work. These scores are weighted according to the percentages shown in Table~\ref{tab:weights}. Before calculating your course score, \marginnote{-0.1in}{Your lowest 2 homework scores are dropped.} I will throw away your lowest two (2) homework scores.  
+%
+% --- Table: Evaluation Weights
+%
+\renewcommand{\arraystretch}{1.15}
 \begin{table}[h]
-\caption{\sffamily Weight of items contributing to your course score.}
+\caption{\sffamily Weight of evaluated items}
 \label{tab:weights}
-\begin{tabular}{r|l} \toprule
-\textbf{Evaluation Item} & \textbf{Weight} \\ \hline
-Exercise Assignments & 10\% \\
-Practice Exercises & 5\% \\
-Quizzes & 25\% \\
-Exams (3 @ 10\% each) & 30\% \\
-Final Exam & 20\% \\
-Laboratory & 10\% \\ 
-\bottomrule
+\begin{tabular}{rc|rc}
+\hline\hline
+\textbf{Evaluation Item} & \textbf{Weight} & \textbf{Evaluation Item} & \textbf{Weight} \\ \hline
+Homework & 20\% & Exams & 20\% \\
+Laboratory & 20\% & Final Exam & 20\% \\
+Quizzes & 20\% &  \\ 
+\hline\hline
 \end{tabular}
 \end{table}
-
 \section{Letter Grade}
 Letter grades are assigned at the end of the course according to the minimum course score requirements listed in Table~\ref{tab:lettergrades}. Course scores below $55\%$ are considered failing. Please see \href{http://dephlo.net/lettergrades}{dephlo.net/lettergrades} for more detail about how your course letter grade is determined. 
 
@@ -303,20 +334,17 @@ Letter grades are assigned at the end of the course according to the minimum cou
 \bottomrule
 \end{tabular}
 \end{table}
-
+%
+% --- ADDITIONAL INFORMATION ---
+%
 \section{Additional Information}
-
-Please see the course website at \href{http://dephlo.net/genchem}{dephlo.net/genchem} for additional information such as suggestions for success, detailed course policies, course schedule, and solutions. 
-
+Please see the course website at \href{http://dephlo.net/genchem}{dephlo.net/genchem} for additional information such as the detailed course schedule, assignments and due dates, assignment solutions, office hours, granular course objectives, suggestions for success, my expectations of you, grade advice, and policies on assignment of letter grades. The website also contains detailed policies on attendance, late submission of work, email communication, disability accommodations, and classroom behavior. All material found on the course website is an extension of this syllabus and constitutes my contract with you for this course. 
+%
+% --- LICENSE AND SOURCE CODE ---
+%
+\section{License and Source Code}
+\copyright\ 2015 by Dale J. Brugh. Course Syllabus for Chemistry 110 (2015) is made available under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). See \href{https://creativecommons.org/licenses/by-sa/4.0/}{https://creativecommons.org/licenses/by-sa/4.0/} for details about your rights under this license. The \LaTeX\ source code is available under the same license from Github at \href{https://github.com/djbrugh/chem110-syllabus}{https://github.com/djbrugh/chem110-syllabus}. \marginpar{\vspace{-0.85in}\hfill\noindent\href{https://creativecommons.org/licenses/by-sa/4.0/}{\includegraphics[width=1in]{figs/cc-by-sa.pdf}}}
+%
+% --- END DOCUMENT ---
+%
 \end{document}
-
-% \section{My Approach to Learning and Teaching}
-% I view the learning process as a competition with yourself. I will make it clear throughout the course what you have to learn, and I will suggest how to learn it. From that point forward, it is up to you to push yourself to learn the material. The more thoroughly you learn what I ask you to learn, the better your scores will be and the better your ultimate course grade will be.
-
-% I provide the structure for the course so that information is presented in a logical manner. I structure the dosing of information so that you are presented with new material at a regular, but manageable rate. I provide study guides and assistance with problems. All this is called ``teaching,'' but no amount of teaching can make you see the Universe from a molecular and atomic viewpoint.
-
-% In the end, learning boils down to you working your ass off to build an understanding of the physical world using the \emph{opportunities} provided to you. I cannot impart that understanding. I can only guide and point the way. You have to work for it.
-
-% I collect exercise assignments at the start of very class meeting for which they are assigned. I will grade some of them from time to time. Working homework is important. If you do not work chemistry homework at least 5 nights a week, you will probably perform poorly in the course. The following sections answer some common questions about homework in this class.
-
-%Your \marginnote{-0.1in}{I cannot evaluate effort. I can only evaluate and grade performance.} course score will depend on your level of \emph{performance} in the course, not your level of effort. Effort is important, but it must yield performance gains for it to change your course score.
